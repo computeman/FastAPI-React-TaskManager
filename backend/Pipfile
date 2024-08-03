@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = "*"
+databases = "*"
+asyncpg = "*"
+fastapi-jwt-auth = "*"
+passlib = "*"
+alembic = "*"
+psycopg2-binary = "*"
+flask = "*"
+pydantic = "==1.10.7"
+bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,101 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .dashboard h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard ul li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard ul li div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .dashboard ul li strong {
+    color: #333;
+  }
+  
+  .dashboard ul li a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .dashboard ul li a:hover {
+    background-color: #e9f7ff;
+  }
+  
+  .dashboard ul li button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .dashboard ul li button:hover {
+    background-color: #c82333;
+  }
+  
+  .dashboard .create-task-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .dashboard .create-task-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dashboard .logout-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    align-self: flex-start; /* Aligns button to the start */
+  }
+  
+  .dashboard .logout-button:hover {
+    background-color: #c82333;
+  }
+  
